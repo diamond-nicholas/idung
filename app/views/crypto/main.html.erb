@@ -1,4 +1,14 @@
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+
+<% if account_signed_in?%>
+     
+      <%= render "dashboard/index" %>
+          
+     <% else %>
+      
+   
+
+
+<%# <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
       <h1 class="display-4 fw-normal">Invest in crypto today to change the world around you....</h1>
       <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
@@ -6,4 +16,396 @@
     </div>
     <div class="product-device shadow-sm d-none d-md-block"></div>
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div> %>
+
+<%# 
+  <div class="wrapper">
+  <div class="header_top">
+    <div class="content">
+      <div class="logo fadeInDown wow" style="visibility: visible; animation-name: fadeInDown;"><a href="index.html?a=home"><img src="styles/images/logo.png" alt=""></a></div>
+      <div class="main_nav fadeInDown wow" style="visibility: visible; animation-name: fadeInDown;">
+        <ul>
+            <li><a href="index.html?a=home">Home</a></li>
+            <li><a href="about.html?a=cust&amp;page=about">about us</a></li>
+           
+            <li><a href="investment.html?a=cust&amp;page=investment">Investment</a></li>
+            <li><a href="faq.html?a=faq">FAQ </a></li>
+            <li><a href="news.html?a=news">News </a></li>
+            
+            <li><a href="index-1.html?a=support">Contact</a></li>
+              <li><a href="testimony.html">Testimony</a></li>
+              
+                        <li class="login"><a href="login.html?a=login">Login</a></li>
+            <li class="signup"><a href="register.html?a=signup">signup</a></li>
+                                 </ul>
+      </div>
+    </div>
+  </div> %>
+<div class="banner">
+  <div class="content">
+      <div class="header_contacts fadeInUp wow" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="date" id="clockbox">Monday, March 8 10:10 AM</div>
+        <div class="phone"> <b> ₿ </b>
+Fixed BTC Rate : <span style="color: #4981c2;" class="bitCoin">$47658.92</span></div>
+        <div class="email"><span>info@MoonBitcoin.com</span></div>
+      </div>
+      <div class="headerproof fadeInUp wow" style="visibility: visible; animation-name: fadeInUp;"><a href="paid.html?a=paidout">payment<br>
+        proofs</a></div>
   </div>
+<div class="content">
+    <div class="bannerinside">
+            <div class="bannertop">
+        <div class="bannerleft">
+          <h1 class="bounceInUp wow" style="visibility: visible; animation-name: bounceInUp;"><span>The fresh</span> start 
+            for investors</h1>
+          <p class="bounceInUp wow" style="visibility: visible; animation-name: bounceInUp;">All You Need is a Dream and MoonBitcoin</p>
+                              <%= link_to "Sign Up", new_account_registration_path, class: "nav-link" %>
+
+          </div>
+        <div class="bannerright zoomIn wow" style="visibility: visible; animation-name: zoomIn;"><img src="/app/assets/images/banner.jpeg" alt=""></div>
+      </div>
+                  <div class="bannerbottom">
+        <div class="companystat flipInX wow" style="visibility: visible; animation-name: flipInX;"> <span class="icon"><img src="styles/images/runningdays.png" alt=""></span>
+          <h2>3468</h2>
+          <p>Running days</p>
+        </div>
+        <div class="companystat even flipInX wow" style="visibility: visible; animation-name: flipInX;"> <span class="icon"><img src="styles/images/totalmember.png" alt=""></span>
+          <h2>500,000+</h2>
+          <p>Total members</p>
+        </div>
+        <div class="companystat flipInX wow" style="visibility: visible; animation-name: flipInX;"> <span class="icon"><img src="styles/images/totaldeposits.png" alt=""></span>
+          <h2>$ 54700065.44</h2>
+          <p>Total deposits</p>
+        </div>
+        <div class="companystat even last flipInX wow" style="visibility: visible; animation-name: flipInX;"> <span class="icon"><img src="styles/images/totalwithdrawals.png" alt=""></span>
+          <h2>$ 16536836.79</h2>
+          <p>Total Withdrawals</p>
+        </div>
+      </div>
+          </div>
+  </div>
+  </div>
+  
+  <!--Header End-->
+  
+
+
+
+
+<div class="about_wrap">
+  <div class="content">
+    <div class="about_left zoomIn wow" style="visibility: visible; animation-name: zoomIn;"><img src="styles/images/aboutthumb.png" alt=""></div>
+    <div class="about_right">
+      <h2 class="bounceInUp wow" style="visibility: visible; animation-name: bounceInUp;">About <span>MoonBitcoin</span></h2>
+      <p class="bounceInUp wow" style="visibility: visible; animation-name: bounceInUp;">moonbitcoin is forming the highest conceivable gain managing numerous trading mechanisms, is steadfast rational work, profoundly adequate veterans of distinctive outlines: traders, analysts, experts on the global moratorium, managers, developers, programmers etc. well-coordinated performance of the entire team of employees, based on the synergy and responsiveness to the slenderest fluctuations in syndicate situations, is solution to the overall prosperity of our companionship.</p>
+      <a href="about.html?a=cust&amp;page=about" class="bounceInUp wow" style="visibility: visible; animation-name: bounceInUp;">Read More</a> </div>
+  </div>
+</div>
+<div class="certificatewrap">
+  <div class="content">
+    <div class="certificate_left"><img src="styles/images/certificate.png" alt=""></div>
+    <div class="certificate_right">
+      <div class="certificateaddress">
+        <div class="address"><span>MoonBitcoin #12810407</span> 6 BRUSHFIELD STREET
+
+LONDON,
+
+ENGLAND, E1 6AN
+
+UNITED KINGDOM<br>
+          </div>
+        <div class="email"><span>e-mail:</span> info@MoonBitcoin.com</div>
+        
+      </div>
+      <div class="certificateactions fadeInRight wow" style="visibility: visible;"> <a href="#" data-toggle="modal" data-target="#myModal" class="downloadcert">download cert</a> <a target="_blank" href="company/12810407.html" class="viewinfo">view company info</a> <a href="contact.html?a=support" class="about">Contact us</a> </div>
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog"> 
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">×</button>
+              <h4 class="modal-title">Company Certificate</h4>
+            </div>
+            <div class="modal-body">
+              <p><img src="styles/images/certificate.png" alt=""></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="plan_wrap">
+  <div class="content">
+    <h2 class="zoomInUp wow" style="visibility: visible;">investment <span>plans</span></h2>
+    <div class="planscroller">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+        <!-- Left and right controls --> 
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span><img src="styles/images/ctn-bot-sil5.png"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span><img src="styles/images/ctn-bot-sil6.png"></span></a> 
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item next left">
+            <div class="ctn-Referral">
+              <div class="ctn-referral-part referral-part1">
+                <h3>Starter</h3>
+                <div class="info">
+                  <h4>120%</h4>
+                  <ul>
+                    <li>After 1 day</li>
+                    <li>Minimum Deposit:<br>
+                      $200</li>
+                    <li>Maximum Deposit:<br>
+                      unlimited</li>
+                  </ul>
+                </div>
+                <a href="login-1.html?a=deposit">Deposit now</a> </div>
+              <div class="ctn-referral-part referral-part2">
+                <h3>Advanced</h3>
+                <div class="info">
+                  <h4>150%</h4>
+                  <ul>
+                    <li>After 1 days</li>
+                    <li>Minimum Deposit:<br>
+                      $300</li>
+                    <li>Maximum Deposit:<br>
+                      unlimited</li>
+                  </ul>
+                </div>
+                <a href="login-1.html?a=deposit">Deposit now</a> </div>
+              <div class="ctn-referral-part referral-part3">
+                <h3>Business</h3>
+                <div class="info">
+                  <h4>250%</h4>
+                  <ul>
+                    <li>After 2 days</li>
+                    <li>Minimum Deposit:<br>
+                      $1000</li>
+                    <li>Maximum Deposit:<br>
+                      unlimited</li>
+                  </ul>
+                </div>
+                <a href="login-1.html?a=deposit">Deposit now</a> </div>
+              <div class="ctn-referral-part referral-part4">
+                <h3>Premium</h3>
+                <div class="info">
+                  <h4>350%</h4>
+                  <ul>
+                    <li>After 2 days</li>
+                    <li>Minimum Deposit:<br>
+                      $3000</li>
+                    <li>Maximum Deposit:<br>
+                      unlimited</li>
+                  </ul>
+                </div>
+                <a href="login-1.html?a=deposit">Deposit now</a> </div>
+            </div>
+          </div>
+           <div class="item active left">
+            <div class="ctn-Referral">
+              <div class="ctn-referral-part referral-part1">
+               <h3>Enterprise</h3>
+                <div class="info">
+                  <h4>450%</h4>
+                  <ul>
+                    <li>After 2 days</li>
+                    <li>Minimum Deposit:<br>
+                      $5000</li>
+                    <li>Maximum Deposit:<br>
+                      unlimited</li>
+                  </ul>
+                </div>
+                <a href="login-1.html?a=deposit">Deposit now</a> </div>
+              <div class="ctn-referral-part referral-part2">
+                <h3>Vip 1</h3>
+                <div class="info">
+                  <h4>550%</h4>
+                  <ul>
+                    <li>After 3 days</li>
+                    <li>Minimum Deposit:<br>
+                      $6500</li>
+                    <li>Maximum Deposit:<br>
+                      unlimited</li>
+                  </ul>
+                </div>
+                <a href="login-1.html?a=deposit">Deposit now</a> </div>
+              <div class="ctn-referral-part referral-part3">
+                 <h3>Vip 2</h3>
+                <div class="info">
+                  <h4>650%</h4>
+                  <ul>
+                    <li>After 3 days</li>
+                    <li>Minimum Deposit:<br>
+                      $8000</li>
+                    <li>Maximum Deposit:<br>
+                      unlimited</li>
+                  </ul>
+                </div>
+                <a href="login-1.html?a=deposit">Deposit now</a> </div>
+              <div class="ctn-referral-part referral-part4">
+                 <h3>Promo</h3>
+                <div class="info">
+                  <h4>500%</h4>
+                  <ul>
+                    <li>After 14 days</li>
+                    <li>Minimum Deposit:<br>
+                      $200</li>
+                    <li>Maximum Deposit:<br>
+                      unlimited</li>
+                  </ul>
+                </div>
+                <a href="login-1.html?a=deposit">Deposit now</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="calculatorwrap">
+      <div class="calculator_left zoomIn wow" style="visibility: visible;">
+        <h3>calculate profit</h3>
+        <span class="icon"><img src="styles/images/calculateicon.png" alt=""></span> </div>
+      <div class="calculator_right">
+        <div class="calcbox fadeInRight wow" style="visibility: visible;">
+          <label>select plan:</label>
+          <span class="results">
+          <select id="Ultra">
+            <option value="0">120% after 1 day</option>
+            <option value="1">150% after 1 days</option>
+            <option value="2">250% after 2 days</option>
+            <option value="3">350% after 2 days</option>
+            <option value="4">450% after 2 day</option>
+            <option value="5">550% after 3 days</option>
+            <option value="6">650% after 3 days</option>
+            <option value="7">750% after 3 days</option>
+          </select>
+          </span></div>
+        <div class="calcbox fadeInRight wow" style="visibility: visible;">
+          <label>enter amount ($)</label>
+          <span class="results">
+          <input type="text" name="money" id="money" value="50">
+          </span></div>
+        <div class="calcbox fadeInRight wow" style="visibility: visible;">
+          <label>total returned</label>
+          <span class="results">$ <span id="profitDaily">60.00</span></span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="whychoose_wrap">
+  <div class="content">
+    <h2 class="zoomInUp wow" style="visibility: visible;">why choose <span>cryptosbitrade</span>?</h2>
+    <div class="whychoose_left">
+      <h3 class="bounceInUp wow" style="visibility: visible;">Fast and simple start</h3>
+      <ul class="bounceInUp wow" style="visibility: visible;">
+        <li><span>1. Autonomous Registration. </span>Complete a simple enrollment process that catches hardly some breath.</li>
+        <li><span>2. Deposit.</span>Execute a deposit in the suitable plan applying one of the payment operations.</li>
+        <li><span>3. Expect Gain.</span>Expect Gain at the event according to the tariff policy.</li>
+        <li><span>4. Withdraw.</span>Withdraw earnings on the purse and repeat.</li>
+      </ul>
+    </div>
+    <div class="whychoose_right zoomIn wow" style="visibility: visible;"><img src="styles/images/whychoosethumb.png" alt=""></div>
+  </div>
+</div>
+<div class="features_wrap">
+  <div class="content">
+    <h2 class="zoomInUp wow" style="visibility: visible;">cryptosbitrade features</h2>
+    <div class="featurebox one flipInY wow" style="visibility: visible;"><span class="icon"><img src="styles/images/featuredicon1.png" alt=""></span>
+      <h3>DDOS GUARD PROTECTION</h3>
+    </div>
+    <div class="featurebox two flipInY wow" style="visibility: visible;"><span class="icon"><img src="styles/images/featuredicon2.png" alt=""></span>
+      <h3>COMODO SSL SECURITY</h3>
+    </div>
+    <div class="featurebox three flipInY wow" style="visibility: visible;"><span class="icon"><img src="styles/images/featuredicon3.png" alt=""></span>
+      <h3>TRUSTWAVE SECURITY</h3>
+    </div>
+    <div class="featurebox four flipInY wow" style="visibility: visible;"><span class="icon"><img src="styles/images/featuredicon4.png" alt=""></span>
+      <h3>NORTHON SECURITY</h3>
+    </div>
+  </div>
+</div>
+<div class="affiliate_wrap">
+  <div class="content">
+    <div class="affiliate_left zoomIn wow" style="visibility: visible;"><img src="styles/images/affiliationthumb.png" alt=""></div>
+    <div class="affiliate_right">
+      <div class="affi_top">
+        <div class="left">
+          <h2 class="bounceInUp wow" style="visibility: visible;">affiliate program</h2>
+        </div>
+        <div class="right bounceInUp wow" style="visibility: visible;">5<span>%</span></div>
+      </div>
+      <div class="affi_bot">
+        <p class="bounceInUp wow" style="visibility: visible;">Concerning participation in our partner program, your own deposit is not required. You earn referral commission
+          without investment and is paid directly into your e-currency account instantly. </p>
+                    <a href="register.html?a=signup" class="bounceInUp wow" style="visibility: visible;">join us now</a> 
+              </div>
+  </div>
+</div>
+<%# <div class="lastdeposit_wrap">
+  <div class="content">
+    <div class="lastdepositbox">
+      <div class="center">  
+      <iframe frameborder="0" height="300" width="100%" scrolling="no" src="blockinvestment/deposit.php.html"></iframe>
+        
+                 </div>
+    </div>
+    <div class="lastdepositbox">
+      <div class="center">                 
+     <iframe frameborder="0" height="300" width="100%" scrolling="no" src="blockinvestment/withdrawal.php.html"></iframe>
+                 </div>
+    </div>
+  </div>
+</div> %>
+<!--Main End-->
+
+<!--- Start Footer-->
+
+<div class="footer_wrap">
+  <div class="footer_top">
+    <div class="content">
+      <div class="left">
+        <h2>We accept the following:</h2>
+      </div>
+      <div class="right"><span><img src="styles/images/footerbitcoin.png" alt=""></span></div>
+    </div>
+  </div>
+  <div class="footer_mid">
+    <div class="content">
+      <div class="footer_logo">
+        <h4><a href="index.html?a=home"><img src="styles/images/logo.png" alt="" border="0"></a></h4>
+        <p>© 2020. cryptosbitrade. All Rights Reserved</p>
+      </div>
+      <div class="footer_address">
+        <h4>cryptosbitrade Limited <span></span></h4>
+        <p>456 Park Road East, Birkenhead, United Kingdom, CH41 4BB</p>
+      </div>
+      <div class="footer_email">
+        <h4>support e-mail</h4>
+        <p>info@cryptosbitrade.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer_bottom">
+    <div class="content">
+      <ul>
+        <li><a href="index.html?a=home">Home</a></li>
+        <li><a href="about.html?a=cust&amp;page=about">About Us </a></li>
+        <li><a href="investment.html?a=cust&amp;page=investment">plans</a></li>
+        <li><a href="rules.html?a=rules">terms and conditions</a></li>
+     
+        <li><a href="faq.html?a=faq">faq</a></li>
+        <li><a href="contact.html?a=support">support</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+ 
+  <!--Start of Tawk.to Script-->
+
+<!-- /WhatsHelp.io widget --> 
+
+</div>
+
+ <% end %>
