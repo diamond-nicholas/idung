@@ -23,16 +23,20 @@
             <%= link_to "Investment",   investment_index_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">FAQ</a>
+          <%# <a class="nav-link" href="#">FAQ</a> %>
+            <%= link_to "FAQ",   faq_index_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">News</a>
+          <%# <a class="nav-link" href="#">News</a> %>
+            <%= link_to "News",   news_index_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contacts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Testimony</a>
+          <%# <a class="nav-link" href="#">Testimony</a> %>
+          <%= link_to "Testimony",    testimony_index_path, class: "nav-link" %>
+
         </li>
         <% if account_signed_in? %>
           <li class="nav-item">
