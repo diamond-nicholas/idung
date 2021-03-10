@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'investment/index'
+  get 'about_us/index'
   get "/dashboard" => 'dashboard#index', as: :dashboard
   resources :users
   devise_for :accounts, :controllers => { registrations: 'registrations'}
